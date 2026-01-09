@@ -183,7 +183,7 @@ nav{
 }
 
 .service .service-info .service-heading{
-    color: #000;
+    color: #001931;
     font-size: 48px;
     line-height: 58px;
     font-weight: 700;
@@ -247,5 +247,69 @@ nav{
 
 .service .card .card-des{
     font-size: 16px;
+    line-height: 24px;
     color: #627382;
+}
+
+/* ============= The solution section CSS ============ */
+
+.imgWithText{
+
+    background-color: #fff;
+}
+
+.imgWithText .The-solution{
+    max-width: 1600px;
+    height: 840px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+    margin: 0 auto;
+    padding: 120px;
+}
+
+.imgWithText .the-solution-info{
+    margin-right: 150px;
+
+}
+
+.imgWithText .The-solution .the-solution-img{
+    vertical-align: middle;
+}
+
+.imgWithText .the-solution-info .sub-heading{
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.imgWithText .the-solution-info .the-solution-heading{
+    font-size: 48px;
+    color: #001931;
+    line-height: auto;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.imgWithText .the-solution-info .the-solution-des{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.imgWithText .iconWithText{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.imgWithText .iconWithText .iconText{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
