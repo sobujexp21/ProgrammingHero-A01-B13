@@ -12,11 +12,11 @@
   
 }
 .btn{
-    background-color: #30b868;
+    background-color: #469165;
     font-size: 16px;
     font-weight: 500;
     color: #fff;
-    border: 2px solid #30b868;
+    border: 1px solid #469165;
     padding: 12px 16px;
     border-radius: 5px;
     cursor: pointer;
@@ -26,19 +26,19 @@
     background-color:transparent;
     font-size: 16px;
     font-weight: 500;
-    color: #30b868;
-    border: 2px solid #30b868;
+    color: #469165;
+    border: 1px solid #469165;
     padding: 12px 16px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .btn-1{
-    background-color:#30b868;
+    background-color:#469165;
     font-size: 16px;
     font-weight: 500;
     color: #fff;
-    border: 1px solid #30b868;
+    border: 1px solid #469165;
     padding: 12px 16px;
     border-radius: 5px;
     cursor: pointer;
@@ -68,17 +68,42 @@
 }
 
 .banner .white-btn:hover{
-    background-color:#30b868;
+    background-color:#469165;
     font-size: 16px;
     font-weight: 500;
     color: #fff;
-    border: 1px solid #30b868;
+    border: 1px solid #469165;
     padding: 12px 16px;
     border-radius: 5px;
     cursor: pointer;
 }
 
+.get-access{
+    background-color:#469165;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #469165;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.get-access:hover{
+    background-color:transparent;
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    border: 1px solid #469165;
+    padding: 12px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
 /* ============= Header CSS ============ */
+
 nav{
     max-width: 1600px;
     height: 96px;
@@ -196,7 +221,7 @@ nav{
 .service .service-info .ser-des{
     color: #627382;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24px;
     text-align: center;
 }
 
@@ -281,7 +306,7 @@ nav{
 .imgWithText .the-solution-info .sub-heading{
     color: #469165;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24px;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 16px;
@@ -297,7 +322,7 @@ nav{
 
 .imgWithText .the-solution-info .the-solution-des{
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24px;
     color: #627382;
     margin-bottom: 40px;
 }
@@ -312,4 +337,44 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+/* ============= Call to Action section CSS ============ */
+
+
+.call-to-action .action-content{
+    width: 1360px;
+    height: 385px;
+    background-color: #f7f6f2;
+    padding: 80px 40px;
+    margin: 0 auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .action-heading{
+    font-size: 40px;
+    color: #001931;
+    line-height: auto;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.call-to-action .action-details{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.call-to-action .under-btn-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    text-align: center;
+    margin-bottom: 16px;
 }
